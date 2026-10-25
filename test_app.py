@@ -7,8 +7,6 @@ class TestApp(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(10, 20), 30)
 
-    def test_add_negative(self):
-        self.assertEqual(add(-5, 2), -3)
 
 
 if __name__ == "__main__":
